@@ -1,0 +1,30 @@
+If you have already done setup(which you can ask me to do), then 
+whenever you start coding do a:
+
+"cd ~/lemonade"
+        ^ Or whatever your code directory/ repository is named
+
+--This changes the current working directory to lemonade
+
+"git pull"
+
+--This pulls your most current(hopefully) version of code from 
+github.com
+
+Then as you continue whenever you get code that works I would suggest 
+doing a commit. Also whenever you are done do a commit before you push. 
+To do a commit do:
+
+"git commit -a -m "working code: nov 3" "
+                      ^ This "String" is what the commit is named
+                ^ -m : includes a message that is what the commit is 
+named
+
+             ^ -a : adds everything that you have done.
+ 
+      ^ is the proogram function that allows you to commit your code
+
+
+When you are done just do:
+
+"git push"
